@@ -10,7 +10,12 @@
 
   html{
     background-color: #121212;
+    cursor:url("./images/magic-cursor.png") 10 16,
+    auto;
+    
   }
+
+/* SHINING TEXT */
 
 .shining-text, .shining-text-hover:hover{
     -webkit-mask-image: linear-gradient(-75deg, rgba(235, 235, 235, 0.3) 30%, #000 50%, rgba(235, 235, 235, 0.3) 70%);
@@ -30,6 +35,7 @@
   }
 
 
+/* ARROW ANIMATION */
 
 .arrow-animation{
     top:0px;
@@ -43,4 +49,8 @@
         right: -60px; */
         transform: translate(5px, -5px);
     }
+  }
+
+  .magic-cursor{
+   
   }
