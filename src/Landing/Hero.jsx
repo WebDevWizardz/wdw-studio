@@ -4,6 +4,7 @@ import LatestWork from "./LatestWork";
 import Logo from "./Logo";
 import Services from "./Services";
 import CTA from "./CTA";
+import Balls from "./Balls";
 
 function Hero() {
   return (
@@ -25,7 +26,7 @@ function Hero() {
         </div>
       </div>
       <div className="md:col-span-1 bg-[white] h-[295px] md:h-screen">
-        <p>This section takes up 1/3 of the width.</p>
+        <Balls />
       </div>
       <div className="block md:hidden">
         <CTA />
