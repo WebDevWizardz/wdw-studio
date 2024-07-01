@@ -7,7 +7,7 @@ function Logo() {
       width="100%"
       height="100%"
       fill="none"
-      viewBox="0 0 544 251"
+      viewBox="0 0 532 251"
     >
       <path
         fill="#FBFBFB"
