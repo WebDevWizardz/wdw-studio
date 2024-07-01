@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "./Hero";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         alt=""
         className="w-[400px]"
       />
+      <Hero />
     </div>
   );
 }
