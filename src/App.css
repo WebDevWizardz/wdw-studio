@@ -24,6 +24,10 @@
   mask-clip: text;
 }
 
+.shining-text.get-in-touch:hover{
+  -webkit-mask-image: none;
+}
+
 @keyframes shine {
     from {
       -webkit-mask-position: 150%;
