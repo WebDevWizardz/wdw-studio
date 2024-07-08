@@ -67,7 +67,7 @@
 
     animation-name: balls-in;
     /* DELAY */
-    animation-delay: .6s;
+    animation-delay: .9s;
     animation-duration: 1.8s;
     animation-fill-mode: forwards;
   }
@@ -87,8 +87,8 @@
 
     animation-name: CTA-in;
     /* DELAY */
-    animation-delay: 1.2s;
-    animation-duration: .8s;
+    animation-delay: 1s;
+    animation-duration: 1.6s;
     animation-fill-mode: forwards;
   }
 
@@ -103,20 +103,40 @@
 
     /* SERVICES */
     .start-anim-services{
-      transform: translateX(70%);
+      transform: translateX(55%);
   
       animation-name: services-in;
       /* DELAY */
-      animation-delay: 0;
-      animation-duration: 20s;
+      animation-delay: 1.2s;
+      animation-duration: 16s;
       animation-fill-mode: forwards;
     }
 
     @keyframes services-in{
       from{
-        transform: translateX(70%);
+        transform: translateX(55%);
       }
       to{
         transform: translateX(0%);
       }
+    }
+
+    @keyframes slideUp {
+      from {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+    
+    .line {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    
+    .line.animate {
+      animation: slideUp .5s forwards;
     }
