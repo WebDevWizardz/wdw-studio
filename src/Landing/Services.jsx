@@ -12,7 +12,7 @@ function Services() {
   ];
 
   return (
-    <div className="flex justify-end px-[24px] mt-[20px] md:mt-[60px] pb-[40px]">
+    <div className="flex justify-end px-[24px] mt-[20px] md:mt-[60px] start-anim-services">
       <div className="w-full md:w-[644px] flex flex-nowrap overflow-hidden gap-x-[18px] [mask-image:_linear-gradient(to_right,transparent_0,_black_128px,_black_calc(100%-128px),transparent_100%)]">
         <div className="animate-infinite-scroll uppercase flex items-center justify-center gap-x-[18px]">
           {services.map((service, index) => {
