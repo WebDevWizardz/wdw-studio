@@ -37,7 +37,7 @@ function Description() {
       <div className="h-[24px] overflow-hidden font-[500] mt-[20px]">
         <div className="translate-y-[40px] line">Explore our latest work:</div>
       </div>
-      <div className="h-[24px] overflow-hidden font-[500] mt-[20px] text-[#FBFBFB] text-[24px] md:text-[20px] underline">
+      <div className="h-[30px] overflow-hidden font-[500] mt-[20px] text-[#FBFBFB] text-[24px] md:text-[20px] underline">
         <div className="flex gap-x-[20px] md:gap-x-[10px] translate-y-[40px] line">
           <a
             className="shining-text-hover"

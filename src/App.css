@@ -84,7 +84,8 @@
 
     /* SERVICES */
     .start-anim-services{
-      transform: translateX(68%);
+      transform: translateX(70%);
+      opacity: 0;
   
       animation-name: services-in;
       /* DELAY */
@@ -95,10 +96,12 @@
 
     @keyframes services-in{
       from{
-        transform: translateX(68%);
+        transform: translateX(70%);
+        opacity: 0;
       }
       to{
         transform: translateX(0%);
+        opacity: 1;
       }
     }
 
