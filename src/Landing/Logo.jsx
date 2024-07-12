@@ -3,12 +3,12 @@ import { gsap, CustomEase } from "gsap/all";
 gsap.registerPlugin(CustomEase);
 
 function Logo() {
-  CustomEase.create("logoEase", "0.25,0.1,0.25,1");
+  CustomEase.create("karoEase", "0.25,0.1,0.25,1");
   useEffect(() => {
     gsap.to(".logo", {
       duration: 1,
       y: 0,
-      ease: "logoEase",
+      ease: "karoEase",
     });
   }, []);
 

@@ -17,8 +17,6 @@ function Hero() {
             <LatestWork />
           </div>
           <div>
-            {/* <div className="w-[300px] h-[137px] md:w-[544px] md:h-[251px] mr-0 md:mr-[24px] flex md:ml-auto">
-            </div> */}
             <Logo />
             <div className="hidden md:block">
               <Services />
@@ -29,10 +27,7 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div className="md:col-span-1 h-[295px] md:h-screen relative">
-        <Balls />
-        <div className="opacity-0 md:opacity-100 start-anim-balls bg-[#121212] absolute top-0 left-0 right-0 bottom-0"></div>
-      </div>
+      <Balls />
       <div className="block md:hidden">
         <CTA />
         <Services />
