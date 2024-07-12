@@ -67,7 +67,7 @@
 
     animation-name: CTA-in;
     /* DELAY */
-    animation-delay: 1.6s;
+    animation-delay: 1.3s;
     animation-duration: 1.6s;
     animation-fill-mode: forwards;
     animation-timing-function: cubic-bezier(0.72,0,0.32,0.99);
