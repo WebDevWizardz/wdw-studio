@@ -8,7 +8,7 @@ function Description() {
     gsap.to(".line", {
       duration: 1.6,
       y: 0,
-      delay: 0.5,
+      delay: 0.3,
       ease: "descEase",
       stagger: 0.1,
     });
