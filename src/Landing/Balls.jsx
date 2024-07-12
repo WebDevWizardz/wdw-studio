@@ -8,7 +8,7 @@ function Balls() {
   CustomEase.create("ballsEase", "0.72,0,0.32,0.99");
   useEffect(() => {
     gsap.to(".balls", {
-      duration: 0.4,
+      duration: 0.5,
       yPercent: -100,
       delay: 0.8,
       ease: "ballsEase",

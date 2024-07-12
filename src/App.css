@@ -61,35 +61,16 @@
 
   /* ------ START ANIMATIONS ------ */
 
-  /* BALLS */
-  .start-anim-balls{
-    transform: translateY(0%);
-
-    animation-name: balls-in;
-    /* DELAY */
-    animation-delay: 1.2s;
-    animation-duration: 1.8s;
-    animation-fill-mode: forwards;
-  }
-
-  @keyframes balls-in{
-    from{
-      transform: translateY(0%);
-    }
-    to{
-      transform: translateY(-200%);
-    }
-  }
-
   /* CTA */
   .start-anim-cta{
     transform: translateX(-100%);
 
     animation-name: CTA-in;
     /* DELAY */
-    animation-delay: 1s;
+    animation-delay: 1.6s;
     animation-duration: 1.6s;
     animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.72,0,0.32,0.99);
   }
 
   @keyframes CTA-in{

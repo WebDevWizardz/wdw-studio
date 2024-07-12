@@ -1,6 +1,5 @@
 import React from "react";
 import Description from "./Description";
-import LatestWork from "./LatestWork";
 import Logo from "./Logo";
 import Services from "./Services";
 import CTA from "./CTA";
@@ -14,7 +13,6 @@ function Hero() {
         <div className="flex flex-col-reverse md:flex-col px-[20px] md:px-0 md:h-screen md:justify-between">
           <div className="text-[#B4B4B4] text-[14px] md:text-[18px] tracking-[-2%] w-full md:w-[490px] pt-[20px] md:pt-[60px] md:pl-[60px]">
             <Description />
-            <LatestWork />
           </div>
           <div>
             <Logo />
