@@ -121,22 +121,4 @@
       }
     }
 
-    @keyframes slideUp {
-      from {
-        transform: translateY(100%);
-        opacity: 0;
-      }
-      to {
-        transform: translateY(0);
-        opacity: 1;
-      }
-    }
-    
-    .line {
-      transform: translateY(100%);
-      opacity: 0;
-    }
-    
-    .line.animate {
-      animation: slideUp .5s forwards;
-    }
+  

@@ -17,9 +17,9 @@ function Hero() {
             <LatestWork />
           </div>
           <div>
-            <div className="w-[300px] h-[137px] md:w-[544px] md:h-[251px] mr-0 md:mr-[24px] flex md:ml-auto">
-              <Logo />
-            </div>
+            {/* <div className="w-[300px] h-[137px] md:w-[544px] md:h-[251px] mr-0 md:mr-[24px] flex md:ml-auto">
+            </div> */}
+            <Logo />
             <div className="hidden md:block">
               <Services />
             </div>
