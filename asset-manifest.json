@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/wdw-studio/static/css/main.b78b7072.css",
-    "main.js": "/wdw-studio/static/js/main.12cdbd7d.js",
+    "main.css": "/wdw-studio/static/css/main.8b29b717.css",
+    "main.js": "/wdw-studio/static/js/main.84dd963a.js",
     "static/js/208.42550c59.chunk.js": "/wdw-studio/static/js/208.42550c59.chunk.js",
     "static/js/293.1b844efd.chunk.js": "/wdw-studio/static/js/293.1b844efd.chunk.js",
     "static/js/917.970e0162.chunk.js": "/wdw-studio/static/js/917.970e0162.chunk.js",
@@ -12,8 +12,8 @@
     "static/js/23.2f141aeb.chunk.js": "/wdw-studio/static/js/23.2f141aeb.chunk.js",
     "static/js/453.0068f203.chunk.js": "/wdw-studio/static/js/453.0068f203.chunk.js",
     "index.html": "/wdw-studio/index.html",
-    "main.b78b7072.css.map": "/wdw-studio/static/css/main.b78b7072.css.map",
-    "main.12cdbd7d.js.map": "/wdw-studio/static/js/main.12cdbd7d.js.map",
+    "main.8b29b717.css.map": "/wdw-studio/static/css/main.8b29b717.css.map",
+    "main.84dd963a.js.map": "/wdw-studio/static/js/main.84dd963a.js.map",
     "208.42550c59.chunk.js.map": "/wdw-studio/static/js/208.42550c59.chunk.js.map",
     "293.1b844efd.chunk.js.map": "/wdw-studio/static/js/293.1b844efd.chunk.js.map",
     "917.970e0162.chunk.js.map": "/wdw-studio/static/js/917.970e0162.chunk.js.map",
@@ -25,7 +25,7 @@
     "453.0068f203.chunk.js.map": "/wdw-studio/static/js/453.0068f203.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b78b7072.css",
-    "static/js/main.12cdbd7d.js"
+    "static/css/main.8b29b717.css",
+    "static/js/main.84dd963a.js"
   ]
 }
