@@ -22,7 +22,7 @@ function Balls() {
   }, []);
 
   return (
-    <div className="md:col-span-1 h-[295px] md:h-screen relative">
+    <div className="md:col-span-1 h-[30vh] md:h-screen relative">
       <Spline scene="https://prod.spline.design/rjbXsWR6ht4f7ur3/scene.splinecode" />
       <div className="hidden md:block bg-[#121212] absolute top-0 left-0 right-0 bottom-0 balls"></div>
       <div className="block md:hidden md:opacity-100 bg-[#121212] absolute top-[-10px] left-0 right-0 bottom-0 balls-mobile"></div>

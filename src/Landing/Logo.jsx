@@ -20,7 +20,7 @@ function Logo() {
         </div>
       </div>
       <div className="h-[66px] md:h-[100px] overflow-hidden">
-        <div className="will-change-transform logo translate-y-[300px] pr-[8px]">
+        <div className="will-change-transform logo translate-y-[300px] pr-[8px] leading-[60px] md:leading-[90px]">
           Wizards
         </div>
       </div>
