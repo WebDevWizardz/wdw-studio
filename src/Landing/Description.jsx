@@ -23,7 +23,7 @@ function Description() {
   }, []);
 
   return (
-    <h2 className="font-[200]">
+    <h2 className="font-[200] pb-[10px] md:pb-[0px]">
       <div className="h-[24px] overflow-hidden">
         <div className="translate-y-[40px] line">
           We are a dedicated team at WDW, blending
