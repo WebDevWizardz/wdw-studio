@@ -7,7 +7,7 @@ import Balls from "./Balls";
 
 function Hero() {
   return (
-    <div className="flex flex-col justify-evenly h-screen md:grid md:grid-cols-3 overflow-hidden">
+    <div className="flex flex-col justify-evenly h-dvh md:grid md:grid-cols-3 overflow-hidden">
       <h1 className="opacity-0 absolute">Web Dev Wizards</h1>
       <div className="md:col-span-2">
         <div className="flex flex-col-reverse md:flex-col px-[20px] md:px-0 md:h-screen md:justify-between">
