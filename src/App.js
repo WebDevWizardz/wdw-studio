@@ -3,7 +3,7 @@ import Hero from "./Landing/Hero";
 
 function App() {
   return (
-    <div className="h-dvh w-full overflow-y-hidden bg-[#121212] text-[#FBFBFB]">
+    <div className="h-dvh w-full  bg-[#121212] text-[#FBFBFB]">
       <Hero />
     </div>
   );
