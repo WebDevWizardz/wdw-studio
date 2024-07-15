@@ -50,7 +50,7 @@ function Description() {
       <div className="h-[30px] overflow-hidden font-[500] mt-[6px] md:mt-[20px] text-[#FBFBFB] text-[24px] md:text-[20px] underline">
         <div className="flex gap-x-[20px] md:gap-x-[10px] translate-y-[40px] line will-change-transform">
           <a
-            className="shining-text-hover project translate-y-[100px]"
+            className="md:hover:shining-text project translate-y-[100px]"
             href="https://karolinahess.com"
             target="_blank"
             rel="noopener"
@@ -58,7 +58,7 @@ function Description() {
             01
           </a>
           <a
-            className="shining-text-hover project translate-y-[100px]"
+            className="md:hover:shining-text project translate-y-[100px]"
             href="https://parrty.pl"
             target="_blank"
             rel="noopener"

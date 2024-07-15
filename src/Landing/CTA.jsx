@@ -8,7 +8,7 @@ function CTA() {
         href="mailto:contact.wdwstudio@gmail.com"
         className="block w-fit text-[40px] md:text-[60px] pb-[14px] md:pb-[20px] pl-[20px] md:pl-[60px] relative cursor-pointer md:mt-0"
       >
-        <p className="shining-text get-in-touch">get in touch</p>
+        <p className="shining-text md:hover:get-in-touch">get in touch</p>
         <span className="arrow-animation absolute">
           <Arrow />
         </span>
