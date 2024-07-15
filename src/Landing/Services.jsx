@@ -7,7 +7,7 @@ function Services() {
     "branding",
     "3D art",
     "consulting",
-    "startegy",
+    "strategy",
     "visual identity",
   ];
 
