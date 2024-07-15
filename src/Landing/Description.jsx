@@ -34,7 +34,7 @@ function Description() {
           craft enchanting visual narratives that bring brands to life.
         </div>
       </div>
-      <div className="h-[24px] overflow-hidden font-[500] mt-[20px]">
+      <div className="h-[24px] overflow-hidden font-[200] mt-[20px]">
         <div className="translate-y-[40px] line will-change-transform">
           Explore our latest work:
         </div>
