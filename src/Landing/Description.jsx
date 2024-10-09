@@ -2,10 +2,12 @@ import React, { useEffect } from "react";
 import { gsap, CustomEase } from "gsap/all";
 gsap.registerPlugin(CustomEase);
 
-function Description() {
-  CustomEase.create("descEase", "0.72,0,0.32,0.99");
+// Custom hook useGSAP for description animations
+const useGSAP = (lines, projects) => {
   useEffect(() => {
-    gsap.to(".line", {
+    CustomEase.create("descEase", "0.72,0,0.32,0.99");
+
+    const linesAnimation = gsap.to(lines, {
       duration: 1.6,
       y: 0,
       delay: 0.3,
@@ -13,14 +15,25 @@ function Description() {
       stagger: 0.1,
     });
 
-    gsap.to(".project", {
+    const projectsAnimation = gsap.to(projects, {
       duration: 1.6,
       y: 0,
       delay: 0.5,
       ease: "descEase",
       stagger: 0.3,
     });
-  }, []);
+
+    // Cleanup to kill the animations when the component unmounts
+    return () => {
+      linesAnimation.kill();
+      projectsAnimation.kill();
+    };
+  }, [lines, projects]);
+};
+
+function Description() {
+  // Using useGSAP hook for both .line and .project animations
+  useGSAP(".line", ".project");
 
   return (
     <h2 className="font-[200] pb-[10px] md:pb-[0px]">
@@ -53,7 +66,7 @@ function Description() {
             className="md:hover:shining-text project translate-y-[100px]"
             href="https://karolinahess.com"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             01
           </a>
@@ -61,7 +74,7 @@ function Description() {
             className="md:hover:shining-text project translate-y-[100px]"
             href="https://parrty.pl"
             target="_blank"
-            rel="noopener"
+            rel="noopener noreferrer"
           >
             02
           </a>

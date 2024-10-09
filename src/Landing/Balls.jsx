@@ -1,25 +1,38 @@
 import React, { useEffect } from "react";
 import Spline from "@splinetool/react-spline";
-
 import { gsap, CustomEase } from "gsap/all";
 gsap.registerPlugin(CustomEase);
 
-function Balls() {
-  CustomEase.create("ballsEase", "0.72,0,0.32,0.99");
+// Custom hook useGSAP
+const useGSAP = (targets, mobileTargets) => {
   useEffect(() => {
-    gsap.to(".balls", {
+    CustomEase.create("ballsEase", "0.72,0,0.32,0.99");
+
+    const ballsAnimation = gsap.to(targets, {
       duration: 0.5,
       yPercent: -100,
       delay: 0.8,
       ease: "ballsEase",
     });
-    gsap.to(".balls-mobile", {
+
+    const ballsMobileAnimation = gsap.to(mobileTargets, {
       duration: 0.8,
       xPercent: -100,
       delay: 1.6,
       ease: "ballsEase",
     });
-  }, []);
+
+    // Cleanup to kill the animations when the component unmounts
+    return () => {
+      ballsAnimation.kill();
+      ballsMobileAnimation.kill();
+    };
+  }, [targets, mobileTargets]);
+};
+
+function Balls() {
+  // Using useGSAP hook
+  useGSAP(".balls", ".balls-mobile");
 
   return (
     <div className="md:col-span-1 h-[33%] md:h-screen relative">
