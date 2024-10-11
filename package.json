@@ -1,7 +1,7 @@
 {
   "name": "wdw-studio",
   "version": "0.1.0",
-  "homepage": "https://wdw-studio.com",
+  "homepage": "https://wedeliverweb.com",
   "private": true,
   "dependencies": {
     "@splinetool/react-spline": "^4.0.0",
