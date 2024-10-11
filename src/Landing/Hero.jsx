@@ -1,9 +1,9 @@
-import React from "react";
-import Description from "./Description";
-import Logo from "./Logo";
-import Services from "./Services";
-import CTA from "./CTA";
-import Balls from "./Balls";
+import React from "react"
+import Description from "./Description"
+import Logo from "./Logo"
+import Services from "./Services"
+import CTA from "./CTA"
+import Balls from "./Balls"
 
 function Hero() {
   return (
@@ -31,7 +31,7 @@ function Hero() {
         <Services />
       </div>
     </div>
-  );
+  )
 }
 
-export default Hero;
+export default Hero
