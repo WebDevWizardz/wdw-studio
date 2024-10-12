@@ -28,7 +28,7 @@ function Logo() {
     <div className="text-[60px] md:text-[120px] leading-[90px] md:leading-[105px] tracking-[-4%] font-medium logo overflow-hidden mr-0 md:mr-[24px] md:text-right">
       <div className="h-[66px] md:h-[100px] overflow-hidden">
         <div className="will-change-transform logo translate-y-[200px] pr-[8px]">
-          We deliver
+          We Deliver
         </div>
       </div>
       <div className="h-[66px] md:h-[100px] overflow-hidden">
