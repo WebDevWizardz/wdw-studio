@@ -39,7 +39,7 @@ function Description() {
     <h2 className="font-[200] pb-[10px] md:pb-[0px]">
       <div className="h-[24px] overflow-hidden">
         <div className="translate-y-[40px] line">
-          We are a dedicated team at WDW, blending
+          We are a dedicated team at We Deliver Web, blending
           <span className="text-[#FBFBFB] font-[400]"> design</span>,
         </div>
       </div>
@@ -47,12 +47,12 @@ function Description() {
         <div className="translate-y-[40px] line will-change-transform">
           <span className="text-[#FBFBFB] font-[400]"> art direction</span>, and
           <span className="text-[#FBFBFB] font-[400]"> creative coding</span>.
-          Our mission is to
+          Our mission is to craft
         </div>
       </div>
       <div className="h-[24px] overflow-hidden">
         <div className="translate-y-[40px] line will-change-transform">
-          craft enchanting visual narratives that bring brands to life.
+          enchanting visual narratives that bring your vision to life.
         </div>
       </div>
       <div className="h-[24px] overflow-hidden font-[200] mt-[10px] md:mt-[20px]">
